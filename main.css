@@ -1,0 +1,100 @@
+.container{
+    background: url(./images/Group\ 10\ \(2\).png) no-repeat bottom;
+    border: 1px solid black;
+    display: flex;
+    border-radius: 0.625rem;
+    background-color: #483EFF;
+    width: 17.125rem;
+    height: 35.5rem;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2.5rem;
+    margin-left: 0rem;
+    float: left;
+}
+
+ul{
+    list-style: none;
+    color: white;
+}
+
+.oval{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 0rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.container2{
+    max-width: 28.125rem;
+    height: 35.5rem;
+    margin-right: 6.25rem;
+    margin-left: 6.25rem;
+}
+
+.header {
+    color: var(--denim, #022959);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Ubuntu;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#underhead {
+    color: var(--grey, #9699AA);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.label {
+    color: var(--denim, #022959);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Ubuntu;
+    font-family: Ubuntu;
+    font-size: 0.875rem;
+
+    font-weight: 400;
+}
+
+.input {
+    width: 28.125rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-color, #D6D9E6);
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    border-radius: 8px;
+    background: var(--denim, #022959);  
+    width: 7.6875rem;
+    height: 3rem;
+    margin-left: 20rem;
+    margin-top: 3rem;
+}
+
+.button > p{
+    text-align: center;
+    color: white;
+}
